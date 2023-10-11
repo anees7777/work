@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0px;  
+  padding: 0px;
+}
+p { color: rgb(155, 155, 155);}
+h1,h2,h3 {color: rgb(55, 51, 57);}
+body { font-family: Work Sans;}
+.container {
+ max-width: 1200px;
+ margin: auto;
+ width: 90%;
+} 
+.header_sec {
+  padding: 0px 0px 100px 0px;
+  background: url(../img/header_backg.svg) no-repeat center/cover;}    
+.navbar {
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heder_containt h2 {
+    font-size:30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 100px 0px 30px 0px;
+} 
+.heder_containt p {
+    font-size:18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}  
+.header_btn {
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border-radius: 50px;
+    font-size:18px;
+    font-weight: 600;
+    border: 0px;
+    color: #fff;
+    background: rgb(67, 35, 220);
+    box-shadow: 1px 6px 4px rgb(148, 130, 235);
+}
+/* =========================================================HEADER SECTION COMPLETE */
+.our_ser { padding: 70px 0px;}
+.our_ser h2 {
+    text-align: center;
+    font-size:30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0px 0px 30px 0px;   
+  }
+.our_ser p {
+    font-size:18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    } 
+.card-sec-all {
+ display: grid;   
+ gap: 30px;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-sec-all .card {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffff;
+    padding: 120px 15px 30px 15px;
+}
+.card:hover { box-shadow: 4px 4px 20px 4px rgb(212, 211, 211);}
+.card-sec-all .card h3 {
+    font-size:28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px;    
+}
+.card-sec-all .card:nth-child(1){ background: url(../img/icon1.png) no-repeat left 150px top 20px;}
+.card-sec-all .card:nth-child(2){ background: url(../img/icon2.png) no-repeat left 150px top 20px;}
+.card-sec-all .card:nth-child(3){ background: url(../img/icon3.png) no-repeat left 150px top 20px;}
+.card-sec-all .card p {
+    padding: 0px;
+    font-size:16px;
+    line-height: 25px;
+    font-weight: 400;
+    }
+/* ====================================================================================================================OUR SERVICES SEC COMPLETE     */
+  .visual_meet {
+    display: grid;
+    column-gap: 30px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+  } 
+  .visual_meet h2 {
+    font-size:30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 50px 0px 30px 0px;
+} 
+.visual_meet p {
+    font-size:16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+   }  
+.meet_btn {
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    color: #fff;
+    font-size:18px;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 50px;
+    background: rgb(67, 35, 220);
+    box-shadow: 1px 6px 4px rgb(148, 130, 235);
+   }
+    
