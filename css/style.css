@@ -73,6 +73,7 @@ body { font-family: Work Sans;}
     border-radius: 20px;
     background-color: #ffff;
     padding: 120px 15px 30px 15px;
+    transition: 1s;
 }
 .card:hover { box-shadow: 4px 4px 20px 4px rgb(212, 211, 211);}
 .card-sec-all .card h3 {
@@ -90,7 +91,7 @@ body { font-family: Work Sans;}
     line-height: 25px;
     font-weight: 400;
     }
-/* ====================================================================================================================OUR SERVICES SEC COMPLETE     */
+/* ====================================================================================================================OUR SERVICES SEC COMPLETE*/
   .visual_meet {
     display: grid;
     column-gap: 30px;
@@ -121,4 +122,224 @@ body { font-family: Work Sans;}
     background: rgb(67, 35, 220);
     box-shadow: 1px 6px 4px rgb(148, 130, 235);
    }
-    
+ /* ===========================================================================================================VISUAL MEET SECTION COMPLETE    */
+ .our_team { 
+  text-align: center;
+padding: 50px 0px;}
+ .our_team h2 {
+  font-size:30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0px 0px 30px 0px; 
+ }
+.our_team p {
+  font-size:18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.our_card_all {
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team_card { 
+  width: 500px;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffff;
+  border: 1px solid rgb(226, 226, 226) ;
+  justify-content: space-between;
+  transition: 1s;
+}
+
+.team_card:hover { 
+  border: 0px;
+  box-shadow: 4px 4px 20px 4px rgb(148, 130, 235); 
+  background:rgb(67, 35, 220);
+}
+.team_card h3 {
+  font-size:30px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0px 0px 15px 0px; 
+}
+.team_card h4 {
+  font-size:18px;
+  font-weight: 400;
+  text-align: left;
+  text-transform:uppercase;
+  padding: 0px 0px 15px 0px; 
+  color: rgb(155, 155, 155);
+}
+.team_card p {
+  text-align: left;
+  font-size:16px;
+  line-height: 25px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  
+}
+.team_card .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+  background:url(../img/icon-twitter.png) no-repeat center rgb(148, 130, 235) ;
+  background-size: 22px;
+}
+.team_card .circle::after {
+  left: 60px;
+  top: 0;
+  width:50px;
+  height: 50px;
+  content: "";
+  border-radius:50px;
+  position: absolute;
+  background:url(../img/icon-twitter.png) no-repeat center rgb(148, 130, 235) ;
+  background-size: 22px;
+}
+
+.team_card .our_card_img {
+  width: 100px;
+  height:100px ;
+  border-radius: 100px;
+  background: url(../img/user1.png) no-repeat center/cover;
+  }
+.see_more {
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  border-radius: 50px;
+  font-size:18px;
+  font-weight: 400;
+  border: 0px;
+  color: #fff;
+  margin-top: 50px;
+  text-transform: capitalize;
+  background: rgb(67, 35, 220);
+  box-shadow: 1px 6px 4px rgb(148, 130, 235);
+}
+/* ======================================================================================================OUR TEAM SECTION COMPLETE */
+.featured { padding: 50px 0px;}
+.featured h2 {
+  font-size:30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0px 0px 30px 0px; 
+}
+.icon_all { 
+display: flex;
+gap: 10px;
+justify-content: center;
+}
+.slider { 
+background: url(../img/slider_icon2.png) no-repeat right 100px bottom 50px;
+}
+.slider p {
+  text-align: center;
+  font-size:18px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  padding: 100px 0px 90px 0px;
+  background: url(../img/slider_icon1.png) no-repeat left 110px top 60px;
+}
+.slidertwo {
+  background: url(../img/forv_icon.png) no-repeat right 410px top 20px;
+ }
+.slidertwo h3 {
+  font-size:28px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 30px 0px 30px 0px;
+  background: url(../img/rev_icon.png) no-repeat left 410px top 20px; 
+}
+/* =====================================================================================================================FEATURE CSS CLOSED */
+.footer {
+  padding: 50px 0px 30px 0px;
+  background: rgb(28, 31, 61);
+}
+.footer_form {
+  gap: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(155, 155, 155);
+}
+.footer_form h3 {
+  font-size:40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #ffff;
+  padding: 0px 30px 0px 0px; 
+}
+
+.footer_form input {
+  width: 400px;
+  height: 50px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: #ffff;
+  box-sizing: border-box;
+  padding: 10px 20px; 
+}
+
+.footer_form input:focus {
+color: rgb(28, 31, 61);
+}
+::placeholder { 
+  font-size: 14px;
+font-weight: 600;
+padding: 0px 0px 0px 30px;}
+.form_button {
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  border-radius: 50px;
+  font-size:18px;
+  font-weight: 400;
+  border: 0px;
+  color: #fff;
+  text-transform: capitalize;
+  background: rgb(67, 35, 220);
+}
+.foot_detail {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  padding: 100px 0px 30px 0px;
+}
+
+.foot_list { 
+  display: flex;
+  justify-content: space-between;
+}
+.foot_list ul li { 
+  list-style: none;
+  text-transform: capitalize;
+  padding: 0px 0px 20px 0px;
+  color: rgb(155, 155, 155);
+}
+.foot_list ul .list_head {
+  font-size:16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 0px 0px 30px 0px;
+  text-transform: uppercase;   
+}
+.footer p {
+  text-align: center;
+}
